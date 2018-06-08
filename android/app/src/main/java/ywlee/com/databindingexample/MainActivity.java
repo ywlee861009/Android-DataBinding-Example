@@ -20,7 +20,7 @@ public class MainActivity extends Activity {
         binding = DataBindingUtil.setContentView(this, R.layout.activity_main);
         binding.setActivity(MainActivity.this);
 
-        // 개쩜..바로 사용할수 있음..dd
+        // 개쩜..바로 사용할수 있음..dddd
         binding.mainTxvBindingTest.setText("Test");
     }
 
